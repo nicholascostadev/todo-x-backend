@@ -1,0 +1,30 @@
+{
+  "name": "todo-x-backend",
+  "version": "1.0.0",
+  "description": "Backend for todo-x project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx ./main/bootstrap.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholascostadev/todo-x-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholascostadev/todo-x-backend/issues"
+  },
+  "homepage": "https://github.com/nicholascostadev/todo-x-backend#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "eslint": "^8.30.0",
+    "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.4"
+  }
+}
